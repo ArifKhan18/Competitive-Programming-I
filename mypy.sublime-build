@@ -1,0 +1,9 @@
+{
+    "cmd": [
+        "bash",
+        "-c",
+        "python3 '${file}' < in.txt > out.txt"
+    ],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}
